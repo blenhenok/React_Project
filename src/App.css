@@ -10,3 +10,45 @@ body{
   background-color: #161616;
   color: #6a6a6a;
 }
+.container{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.logo h1{
+  font-size: 45px;
+}
+.logo h1 span{
+  color:#1ebd65;
+}
+.togglemenu{
+  font-size: 30px;
+  color:#1ebd65;
+  background: none;
+}
+.nav-links{
+  display: none;
+}
+.nav-sidebar{
+  display: block;
+  background-color: #1ebd65;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+  height: 100vh;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+ul{
+  list-style: none;
+}
+header ul li{
+  margin-bottom: 30px;
+}
+header ul li a{
+  text-decoration: none;
+  color: #fff;
+}

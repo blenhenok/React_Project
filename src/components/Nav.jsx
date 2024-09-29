@@ -4,7 +4,7 @@ export const Nav = () => {
     const [sidebar, setsidebar] = useState(false)
   return (
     <header>
-    <div className='container'>
+    <div className='container flexSB'>
         <div className="logo">
             <h1><span>B</span>len</h1>
         </div>

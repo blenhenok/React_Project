@@ -13,7 +13,7 @@ export const Nav = () => {
             <ul className={sidebar ? 'nav-sidebar' : 'nav-links'} onClick ={()=> setsidebar(false)}>
                 <li><a href='/' >Home</a></li>
                 <li><a href='/' >About</a></li>
-                <li><a href='/' >Experience</a></li>
+                <li><a href='/' >Award</a></li>
                 <li><a href='/' >Work</a></li>
                 <li><a href='/' >Contact</a></li>
             </ul>
